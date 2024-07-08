@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo suave */
+    padding: 20px; /* Espacio alrededor del contenido */
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    padding: 15px; /* Espacio interno dentro del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.info-usuario {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.foto-perfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.asignaciones {
+    display: flex;
+    align-items: center;
+}
+
+.num-asignaciones {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.lista-asignaciones .asignacion {
+    margin-right: 5px;
+}
+
+#registro {
+    margin-top: 20px;
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    padding: 20px; /* Espacio interno del formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#registro form {
+    display: flex;
+    flex-direction: column;
+}
+
+#registro label, #registro input, #registro button {
+    margin-bottom: 10px;
+    padding: 8px; /* Espacio interno para los elementos del formulario */
+    border: 1px solid #ccc; /* Borde delgada para los campos */
+    border-radius: 4px; /* Bordes redondeados para los campos */
+}
+
+#registro button {
+    background-color: #4CAF50; /* Color de fondo verde para el botón */
+    color: white; /* Texto blanco para el botón */
+    border: none;
+    cursor: pointer;
+}
+
+#registro button:hover {
+    background-color: #45a049; /* Color más oscuro al pasar el mouse */
+}

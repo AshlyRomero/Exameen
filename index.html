@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="usuario">
+        <div class="info-usuario">
+            <img src="https://i.pinimg.com/236x/13/71/c1/1371c163a3d785d5bb4bfd3e8c78b2fb.jpg" alt="Foto de perfil" class="foto-perfil">
+            <div>
+                <h2>ASHLY ROMERO</h2>
+                <p>Ashlyro@gmail.com</p>
+            </div>
+        </div>
+        <div class="asignaciones">
+            <span class="num-asignaciones"></span>
+            <button id="agregarAsignacion">+</button>
+            <div class="lista-asignaciones">
+                <button class="asignacion">Asignación 1</button>
+                <button class="asignacion">Asignación 2</button>
+                <button class="asignacion">Asignación 3</button>
+            </div>
+        </div>
+    </div>
+    <button id="agregarUsuario">Agregar Nuevo Usuario</button>
+
+    <div id="registro" class="registro">
+        <h2>Registro</h2>
+        <form id="formRegistro">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
